@@ -18,12 +18,10 @@ and run the program
 
 
 RULE:
-
 MUST USE BLOCK/CAPITAL LETTER LIKE THIS SENTENCE
 
 
 INSTALL in Linux Terminal:
-
 $ git clone https://github.com/sawsan998/Code-Words.git
 
 $ cd Code-Words
@@ -40,7 +38,6 @@ $ python3 CodeWords.py
 
 
 To input Text in SimpleText.txt and CrazzZZzzyText.txt file:
-
 $ echo "YOUR SENTENCE IN BLOCK/CAPITAL LETTER" > SimpleText.txt
 
 $ echo "PASTE YOUR ENCODED SENTENCE" > SimpleText.txt
