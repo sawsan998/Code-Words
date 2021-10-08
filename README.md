@@ -17,7 +17,7 @@ RULE:
 MUST USE BLOCK/CAPITAL LETTER LIKE THIS SENTENCE
 
 INSTALL in Linux Terminal:
-$ git clone https://github.com/sawsan998/Code-Words.git\n
+$ git clone https://github.com/sawsan998/Code-Words.git
 $ cd Code-Words
 $ chmod 777 SimpleText.txt
 $ echo "YOUR SENTENCE" > SimpleText.txt
