@@ -24,3 +24,10 @@ $ echo "YOUR SENTENCE" > SimpleText.txt
 $ chmod 777 CrazzZZzzyText.txt
 $ echo "ENCODED SENTENCE" > CrazzZZzzyText.txt
 $ python3 CodeWords.py
+
+
+![Screen Shot 2021-10-08 at 12 33 16 PM](https://user-images.githubusercontent.com/81364999/136599225-12e0cb44-7c15-4361-a4f5-6ecd664095d3.png)
+
+![Screen Shot 2021-10-08 at 12 34 26 PM](https://user-images.githubusercontent.com/81364999/136599258-af33f212-2d5d-465c-9542-a9f991b5723b.png)
+
+![Screen Shot 2021-10-08 at 12 35 22 PM](https://user-images.githubusercontent.com/81364999/136599272-baedae58-9d93-4723-8f9b-dfc0bf672488.png)
