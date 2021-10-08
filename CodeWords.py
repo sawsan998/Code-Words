@@ -4,8 +4,9 @@ date = time.strftime("%x")
 cTime = time.strftime("%X")
 userPromtList = []
 resultList = []
-normalAl = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z',' ','\n']
+normalAl = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z',' ','\\n']
 codingAl = ['E','J','O','T','Y','X','S','N','I','D','C','H','M','R','W','V','Q','L','G','B','0','F','K','P','U','8','A','Z']
+
 
 def mainHeading(): #main headings
     print("@@@@@@@@      @@    @@       @       @@  @@@@@@@@       @@       @@ @@       @@")
@@ -23,7 +24,7 @@ def mainHeading(): #main headings
     print("Please select 1 or 2")
 
 def getInput(): #input func
-    userPromt = int(input("Type here: "))
+    userPromt = str(input("Type here: "))
     return userPromt
 
 def encodingFunction(): #encoding func
@@ -46,14 +47,14 @@ def decodingFunction():  #decoding func
     print ("Encoded text: "+"".join(userPromtList))
     print("Decoded text: "+"".join(resultList))
 
-def funcOntrol():  #FUNCTIONS CONTROL
-    if(getInput() == 1):
-        encodingFunction()
-    else:
-        decodingFunction()
-
 mainHeading()
-funcOntrol()
+
+if(getInput() == "1"):
+    encodingFunction()
+else:
+    decodingFunction()
+
+
+
 print("Procces Finished\n")
 print("Created on October 08, 2021\nCreated By: Sawsan Niom\nCurrent Time:\n{}\n{}".format(date,cTime))
-
