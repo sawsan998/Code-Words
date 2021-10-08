@@ -4,8 +4,8 @@ date = time.strftime("%x")
 cTime = time.strftime("%X")
 userPromtList = []
 resultList = []
-normalAl = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z',' ','\\n']
-codingAl = ['E','J','O','T','Y','X','S','N','I','D','C','H','M','R','W','V','Q','L','G','B','0','F','K','P','U','8','A','Z']
+normalAl = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z',' ']
+codingAl = ['E','J','O','T','Y','X','S','N','I','D','C','H','M','R','W','V','Q','L','G','B','0','F','K','P','U','A','Z']
 
 
 def mainHeading(): #main headings
