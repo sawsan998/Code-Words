@@ -11,9 +11,7 @@ dont use it in a illegal and wrong way.
 
 USER TIPS:
 to encoding, write the simple and plain sentence in BLOCK/CAPITAL letter to the SimpleText.txt file
-
 to decoding, copy the encoded sentence and paste it to the CrazzZZzzyText.txt
-
 and run the program
 
 
@@ -22,6 +20,7 @@ MUST USE BLOCK/CAPITAL LETTER LIKE THIS SENTENCE
 
 
 INSTALL in Linux Terminal:
+
 $ git clone https://github.com/sawsan998/Code-Words.git
 
 $ cd Code-Words
@@ -38,6 +37,7 @@ $ python3 CodeWords.py
 
 
 To input Text in SimpleText.txt and CrazzZZzzyText.txt file:
+
 $ echo "YOUR SENTENCE IN BLOCK/CAPITAL LETTER" > SimpleText.txt
 
 $ echo "PASTE YOUR ENCODED SENTENCE" > SimpleText.txt
