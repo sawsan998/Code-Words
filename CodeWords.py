@@ -16,7 +16,7 @@ def mainHeading(): #main headings
     print("✄┃╰━╯┃╭╮┣╮╭╮╭┫╰━╯┃╭╮┃┃┃┃┃┃┃┃━┫╰━┫┃┃┃")
     print("✄╰━━━┻╯╰╯╰╯╰╯╰━━━┻╯╰┻╯╰╯╰╯╰━━┻━━┻╯╰╯")
     print("-------------------------------------------------------------------------------")
-    print("welcome to Sawsan's Code Words bV_1.1.2 (beta version)")
+    print("welcome to Sawsan's Code Words bV_1.2.1 (beta version)")
     print("only use BLOCK/CAPITAL LETTER please")
     print("-------------------------------------------------------------------------------")
     print("1.Encoding (From simple sentence to code sentence.\n2.Decoding (from code sentence to simple sentence.")
