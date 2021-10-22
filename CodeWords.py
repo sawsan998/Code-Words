@@ -9,23 +9,18 @@ codingAl = ['E','J','O','T','Y','X','S','N','I','D','C','H','M','R','W','V','Q',
 
 
 def mainHeading(): #main headings
-    print("@@@@@@@@      @@    @@       @       @@  @@@@@@@@       @@       @@ @@       @@")
-    print("@@          @@  @@  @@      @ @      @@  @@           @@  @@     @@  @@      @@")
-    print("@@          @@  @@   @@     @ @     @@   @@           @@  @@     @@   @@     @@")
-    print("@@@@@@@@   @@@@@@@@   @@   @@  @@   @@   @@@@@@@@    @@@@@@@@    @@    @@    @@")
-    print("      @@   @@    @@   @@   @@  @@  @@          @@    @@    @@    @@     @@   @@")
-    print("      @@  @@      @@   @@ @@    @@ @@          @@   @@      @@   @@      @@  @@")
-    print("@@@@@@@@ @@        @@   @@       @@      @@@@@@@@  @@        @@  @@       @@ @@")
+    print("✄╭━━━╮╱╱╱╱╱╱╱╭━━━╮╱╱╱╱╭━━━━╮╱╱╱╱╭╮")
+    print("✄┃╭━╮┃╱╱╱╱╱╱╱┃╭━╮┃╱╱╱╱┃╭╮╭╮┃╱╱╱╱┃┃")
+    print("✄┃╰━━┳━━┳╮╭╮╭┫╰━━┳━━┳━╋╯┃┃┣┻━┳━━┫╰━╮")
+    print("✄╰━━╮┃╭╮┃╰╯╰╯┣━━╮┃╭╮┃╭╮╮┃┃┃┃━┫╭━┫╭╮┃")
+    print("✄┃╰━╯┃╭╮┣╮╭╮╭┫╰━╯┃╭╮┃┃┃┃┃┃┃┃━┫╰━┫┃┃┃")
+    print("✄╰━━━┻╯╰╯╰╯╰╯╰━━━┻╯╰┻╯╰╯╰╯╰━━┻━━┻╯╰╯")
     print("-------------------------------------------------------------------------------")
     print("welcome to Sawsan's Code Words bV_1.1.2 (beta version)")
     print("only use BLOCK/CAPITAL LETTER please")
     print("-------------------------------------------------------------------------------")
     print("1.Encoding (From simple sentence to code sentence.\n2.Decoding (from code sentence to simple sentence.")
     print("Please select 1 or 2")
-
-def getInput(): #input func
-    userPromt = str(input("Type here: "))
-    return userPromt
 
 def encodingFunction(): #encoding func
     encodingF = open("SimpleText.txt")
@@ -49,12 +44,20 @@ def decodingFunction():  #decoding func
 
 mainHeading()
 
-if(getInput() == "1"):
-    encodingFunction()
-else:
-    decodingFunction()
+while(True):
+    userPromt = str(input("Type here: "))
+    if(userPromt == "1"):
+        encodingFunction()
+        break
+    elif(userPromt == "2"):
+        decodingFunction()
+        break
+    else:
+        print("Wrong Input, Try Again")
+        mainHeading()
+        continue
 
 
 
 print("Procces Finished\n")
-print("Created on October 08, 2021\nCreated By: Sawsan Niom\nCurrent Time:\n{}\n{}".format(date,cTime))
+print("Created on October 08, 2021\nWritten By: Sawsan Niom\nCurrent Time:\n{}\n{}".format(date,cTime))
