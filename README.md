@@ -19,7 +19,7 @@ and run the program
 MUST USE BLOCK/CAPITAL LETTER LIKE THIS SENTENCE
 
 
-@INSTALL in Linux Terminal:
+@INSTALL in macOS/Linux Terminal:
 
 $ git clone https://github.com/sawsan998/Code-Words.git
 
